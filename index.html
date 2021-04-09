@@ -1,68 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zack's Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
-    <!-- Nav Style Import Below -->
-    <link rel="stylesheet" href="./Styles/navStyles.css">
-    <!-- Card Style Import Below -->
-    <link rel="stylesheet" href="./Styles//cardStyles.css">
-</head>
-<body>
-    <nav>
-        <input id="nav-toggle" type="checkbox">
-        <div class="logo">
-            ZACKYCHAN<strong>CODES</strong>
-        </div>
-        <ul class="links">
-            <li class="li"><a href="####">Home</a></li>
-            <li class="li"><a href="####">About Me</a></li>
-            <li class="li"><a href="####">Projects</a></li>
-            <li class="li"><a href="####">Contact</a></li>
-        </ul>
-        <label for="nav-toggle" class="icon-burger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </label>
-    </nav>
-    <!-- <nav class="nav">
-        <ul>
-            <li class="nav">Home</li>
-            <li class="nav">About Me</li>
-            <li class="nav">Projects</li>
-        </ul>
-    </nav> -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Styles/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
+      crossorigin="anonymous"
+    />
 
-        <!-- Project 1 Card -->
-    <div class="parentCard">
-        <div class="card">
-            <img src="./Images/fireImage.jpeg" alt="Image of a flame." style="width: 100%;">
-            <div class="container">
-                <h4><b>Python Fire Scanner</b></h4>
-                <p>Lorem ipsum dolor, sit amete consectetur adipisicing elit. Hic aliquam alias magnam, dicta labore rem!</p>
-            </div>
-        </div>
-        <!-- Project 2 Card -->
-        <div class="card">
-            <img src="./Images/keyboardImage.jpeg" alt="Image of a computer keyboard." style="width: 100%;">
-            <div class="container">
-                <h4><b>C Programs (Computer Science Degree)</b></h4>
-                <p>Lorem ipsum dolor, sit amet consecteture adipisicing elit. Hic aliquam alias magnam, dicta labore rem!</p>
-            </div>
-        </div>
-        <!-- Project 3 Card -->
-        <div class="card">
-            <img src="./Images/webSketch.jpeg" alt="A sketch of a website's potential design." style="width: 100%;">
-            <div class="container">
-                <h4><b>JavaScript Project (Jonas)</b></h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic aliquam alias magnam, dicta labore reme!</p>
-            </div>
-        </div>
-    </div>
-        <!-- End of Card Above (End of Parent Div Below) -->
-</body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- START NAV -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list" id="nav-text-color">
+        <li>
+          <a href="#welcome-section">About</a>
+        </li>
+        <li>
+          <a href="#projects">Work</a>
+        </li>
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- END NAV -->
+
+    <!-- START WELCOME SECTION -->
+
+    <section id="welcome-section" class="welcome-section">
+      <h1>Hey, I am Zachary</h1>
+      <p>a web developer</p>
+    </section>
+
+    <!-- END WELCOME SECTION -->
+
+    <!-- START PROJECTS SECTION -->
+
+    <section id="projects" class="projects-section">
+      <h2 class="projects-section-header">These are some of my projects</h2>
+
+      <div class="projects-grid">
+        <a
+          href="https://github.com/zackychan97/adopt-me-animal"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://images.unsplash.com/photo-1570117268106-8e369647c733?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            adoptMe
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://github.com/immunization-tracking-buildweek"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Cardea
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+        <a
+          href="https://github.com/zackychan97/Stanford-Code-in-Place"
+          target="_blank"
+          class="project project-tile"
+        >
+          <img
+            class="project-image"
+            src="https://images.unsplash.com/photo-1514428631868-a400b561ff44?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+            alt="project"
+          />
+          <p class="project-title">
+            <span class="code">&lt;</span>
+            Stanford Code in Place
+            <span class="code">&#47;&gt;</span>
+          </p>
+        </a>
+      </div>
+
+      <a
+        href="https://github.com/zackychan97"
+        class="btn btn-show-all"
+        target="_blank"
+        >Show all<i class="fas fa-chevron-right"></i
+      ></a>
+    </section>
+
+    <!-- END PROJECTS SECTION -->
+
+    <!-- START CONTACT SECTION -->
+
+    <section id="contact" class="contact-section">
+      <div class="contact-section-header">
+        <h2>Let's work together...</h2>
+      </div>
+      <div class="contact-links">
+        <a
+          id="profile-link"
+          href="https://github.com/zackychan97"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-github"></i> GitHub</a
+        >
+        <a
+          id="profile-link"
+          href="https://twitter.com/zackychan97?lang=en"
+          target="_blank"
+          class="btn contact-details"
+          ><i class="fab fa-twitter"></i> Twitter</a
+        >
+      </div>
+    </section>
+
+    <!-- END CONTACT SECTION -->
+
+    <!-- START FOOTER SECTION -->
+
+    <footer></footer>
+
+    <!-- END FOOTER SECTION -->
+  </body>
 </html>

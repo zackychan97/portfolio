@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./Styles/styles.css" />
+    <link rel="stylesheet" href="./Styles/contactFormStyles.scss" />
     <title>Zack Bumpous' Portfolio 💻</title>
   </head>
   <body>
@@ -137,6 +138,40 @@
           ><i class="fab fa-twitter"></i> Twitter</a
         >
       </div>
+      <!-- <form name="contact" method="POST" data-netlify="true">
+        <div class="half left cf">
+          <input type="text" id="input-name" placeholder="Name" />
+          <input type="email" id="input-email" placeholder="Email address" />
+          <input type="text" id="input-subject" placeholder="Subject" />
+        </div>
+        <div class="half right cf">
+          <textarea
+            class="userMessage"
+            name="message"
+            type="text"
+            id="input-message"
+            placeholder="Message"
+          ></textarea>
+        </div>
+        <input type="submit" value="Submit" id="input-submit" />
+      </form> -->
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <br />
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
+        <br />
+        <p>Message:</p>
+
+        <textarea class="message" name="message"></textarea>
+
+        <p>
+          <button class="formButton" type="submit">Send</button>
+        </p>
+      </form>
     </section>
 
     <!-- END CONTACT SECTION -->

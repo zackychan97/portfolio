@@ -7,7 +7,8 @@
   /* --main-red: #e63946; */
   --main-red: linear-gradient(to bottom, #dfbdfa 5%, #a8dadc 100%);
   /*   --main-blue: #45567d; */
-  --main-blue: #a8dadc;
+  /* --main-blue: #a8dadc; */
+    --main-blue: #9370DB;
   --main-gray: #303841;
 }
 
@@ -169,6 +170,8 @@ img {
   font-weight: 200;
   font-style: italic;
   color: var(--main-red);
+  text-align: center;
+  margin: 5%;
 }
 
 /* Projects section */

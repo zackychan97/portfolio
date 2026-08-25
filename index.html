@@ -1,210 +1,454 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./Styles/styles.css" />
-    <!-- <link rel="stylesheet" href="./Styles/contactFormStyles.scss" /> -->
-    <title>Zack Bumpous' Portfolio 💻</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Zack Bumpous | Software Engineer</title>
+    <meta
+      name="description"
+      content="Zack Bumpous is a software engineer and systems developer building production .NET software, REST APIs, Azure infrastructure, integrations, and data-driven systems."
+    />
+    <meta name="theme-color" content="#101820" />
+    <link rel="canonical" href="https://zackbumpous.io/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zackbumpous.io/" />
+    <meta property="og:title" content="Zack Bumpous | Software Engineer" />
+    <meta
+      property="og:description"
+      content="Production software, APIs, cloud infrastructure, integrations, and data-driven systems."
+    />
+    <meta property="og:site_name" content="Zack Bumpous" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Zack Bumpous | Software Engineer" />
+    <meta
+      name="twitter:description"
+      content="Production software, APIs, cloud infrastructure, integrations, and data-driven systems."
+    />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="Styles/styles.css" />
+    <script src="script.js" defer></script>
   </head>
-  <>
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.12.1/css/all.css"
-      crossorigin="anonymous"
-    />
-
-    <link
-      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
-      rel="stylesheet"
-    />
-    <!-- START NAV -->
-
-    <nav id="navbar" class="nav">
-      <ul class="nav-list" id="nav-text-color">
-        <li>
-          <a href="#welcome-section">About</a>
-        </li>
-        <li>
-          <a href="#projects">Work</a>
-        </li>
-        <li>
-          <a href="#contact">Contact</a>
-        </li>
-      </ul>
-    </nav>
-    <!-- END NAV -->
-
-    <!-- START WELCOME SECTION -->
-
-    <section id="welcome-section" class="welcome-section">
-      <h1>
-        👋 Hello!
-        <br />
-        This is Zack's page.
-      </h1>
-      <h2>So.. a bit about me. 💭</h2>
-      <p class="welcome-p">
-        I study computer science part-time and am working full-time as a systems developer, mainly working with C#, SQL, and Azure.
-        <br />
-        <br />
-        I began my programming journey using web technologies such as HTML, CSS,
-        and JavaScript.
-        <br />
-        <br />
-        I have worked as an intern writing software applications at 3M in
-        Aberdeen, SD from March 2022 - March 2023. I interned for VT Industries from May 2023 - August 2023. 💻
-        <br />
-        <br />
-        I am currently working as a systems-developer for the SDBIT. I work with C# .NET, SQL, and Azure often. August 2023 - Present 👨‍💻
-      </p>
-    </section>
-
-    <!-- END WELCOME SECTION -->
-
-    <!-- START PROJECTS SECTION -->
-
-    <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">
-        These are some of my class projects/data structures.
-      </h2>
-
-      <div class="projects-grid">
-        <a
-          href="https://github.com/zackychan97/linked-list"
-          target="_blank"
-          rel="noopener"
-          class="project project-tile"
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary navigation">
+        <a class="wordmark" href="#top" aria-label="Zack Bumpous, home"
+          >ZB<span aria-hidden="true">.</span></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="nav-links"
         >
-          <img
-            class="project-image"
-            src="https://images.unsplash.com/photo-1637338743275-99e95c4e9e46?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGxpbmtlZCUyMGxpc3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Linked List
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://github.com/zackychan97/bst"
-          target="_blank"
-          rel="noopener"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://images.unsplash.com/photo-1490127252417-7c393f993ee4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2VhcmNofGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Binary Search Tree
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-        <a
-          href="https://github.com/zackychan97/symbol-table"
-          target="_blank"
-          rel="noopener"
-          class="project project-tile"
-        >
-          <img
-            class="project-image"
-            src="https://images.unsplash.com/photo-1635178879499-4fcc79e1f9cc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGN5bWJhbHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
-            alt="project"
-          />
-          <p class="project-title">
-            <span class="code">&lt;</span>
-            Symbol Table
-            <span class="code">&#47;&gt;</span>
-          </p>
-        </a>
-      </div>
-
-      <a
-        href="https://github.com/zackychan97"
-        class="btn btn-show-all"
-        target="_blank"
-        rel="noopener"
-        >Show all<i class="fas fa-chevron-right"></i
-      ></a>
-    </section>
-
-    <!-- END PROJECTS SECTION -->
-
-    <!-- START CONTACT SECTION -->
-
-    <section id="contact" class="contact-section">
-      <div class="contact-section-header">
-        <h2>Let's work together...</h2>
-      </div>
-      <div class="contact-links">
-        <a
-          id="profile-link"
-          href="https://github.com/zackychan97"
-          target="_blank"
-          rel="noopener"
-          class="btn contact-details"
-          ><i class="fab fa-github"></i> GitHub</a
-        >
-        <a
-          id="profile-link"
-          href="https://twitter.com/zackychan97?lang=en"
-          target="_blank"
-          rel="noopener"
-          class="btn contact-details"
-          ><i class="fab fa-twitter"></i> Twitter</a
-        >
-      </div>
-      <!-- <form name="contact" method="POST" data-netlify="true">
-        <div class="half left cf">
-          <input type="text" id="input-name" placeholder="Name" />
-          <input type="email" id="input-email" placeholder="Email address" />
-          <input type="text" id="input-subject" placeholder="Subject" />
+          <span>Menu</span><i aria-hidden="true"></i>
+        </button>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a class="nav-contact" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main id="main-content">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">
+              <span class="status-dot" aria-hidden="true"></span> Software
+              Engineer · Systems Developer
+            </p>
+            <h1 id="hero-title">
+              I build the systems behind reliable software.
+            </h1>
+            <p class="hero-lede">
+              I'm Zack Bumpous, a software engineer working across .NET
+              applications, REST APIs, Azure infrastructure, integrations, and
+              data. Since 2022, I've helped build and maintain software used in
+              production.
+            </p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#experience"
+                >View experience <span aria-hidden="true">↓</span></a
+              ><a class="button button-secondary" href="#projects"
+                >Explore projects</a
+              >
+            </div>
+            <ul class="hero-links" aria-label="External profiles and contact">
+              <li>
+                <a
+                  href="https://github.com/zackychan97"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >GitHub <span aria-hidden="true">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#contact"
+                  >Contact me <span aria-hidden="true">→</span></a
+                >
+              </li>
+            </ul>
+          </div>
+          <aside class="system-card" aria-label="Engineering focus">
+            <div class="system-head">
+              <span>engineering_profile.json</span><b>PRODUCTION</b>
+            </div>
+            <pre aria-hidden="true"><code><em>{</em>
+  <mark>"backend"</mark>: [<q>"C#"</q>, <q>".NET"</q>, <q>"REST"</q>],
+  <mark>"cloud"</mark>: [<q>"Azure"</q>, <q>"Functions"</q>],
+  <mark>"data"</mark>: <q>"SQL Server"</q>,
+  <mark>"focus"</mark>: [
+    <q>"integrations"</q>,
+    <q>"delivery pipelines"</q>,
+    <q>"production support"</q>
+  ]
+<em>}</em></code></pre>
+            <div class="system-foot">
+              <span>● Systems operational</span><span>2022—present</span>
+            </div>
+          </aside>
         </div>
-        <div class="half right cf">
-          <textarea
-            class="userMessage"
-            name="message"
-            type="text"
-            id="input-message"
-            placeholder="Message"
-          ></textarea>
+      </section>
+      <section class="section" id="about" aria-labelledby="about-title">
+        <div class="container about-grid">
+          <div>
+            <p class="section-index">01 / About</p>
+            <h2 id="about-title">Software that holds up beyond the demo.</h2>
+          </div>
+          <div class="about-copy">
+            <p>
+              I work on backend services, cloud resources, data flows, and the
+              connections between them. My day-to-day engineering spans
+              implementation, deployment, troubleshooting, and long-term
+              maintenance—not just writing code in isolation.
+            </p>
+            <p>
+              Today, I build and support statewide government systems at the
+              South Dakota Bureau of Information and Telecommunications. I care
+              about clear interfaces, dependable delivery, and software that the
+              next engineer can understand.
+            </p>
+            <dl class="facts">
+              <div>
+                <dt>Experience</dt>
+                <dd>Professional since 2022</dd>
+              </div>
+              <div>
+                <dt>Current role</dt>
+                <dd>Systems Developer</dd>
+              </div>
+              <div>
+                <dt>Primary focus</dt>
+                <dd>Backend · Cloud · Integrations</dd>
+              </div>
+            </dl>
+          </div>
         </div>
-        <input type="submit" value="Submit" id="input-submit" />
-      </form> -->
-      <form name="contact" method="POST" data-netlify="true">
-        <p>
-          <label>Your Name: <input type="text" name="name" /></label>
-        </p>
-        <br />
-        <p>
-          <label>Your Email: <input type="email" name="email" /></label>
-        </p>
-        <br />
-        <p>Message:</p>
-
-        <textarea class="message" name="message"></textarea>
-
-        <p>
-          <button class="formButton" type="submit">Send</button>
-        </p>
-      </form>
-    </section>
-
-    <!-- END CONTACT SECTION -->
-
-    <!-- START FOOTER SECTION -->
-
-    <footer></footer>
-
-    <!-- END FOOTER SECTION -->
+      </section>
+      <section
+        class="section section-tinted"
+        id="experience"
+        aria-labelledby="experience-title"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-index">02 / Experience</p>
+              <h2 id="experience-title">Production engineering experience.</h2>
+            </div>
+            <p>
+              Building and supporting business-critical software across
+              government and enterprise environments.
+            </p>
+          </div>
+          <div class="timeline">
+            <article class="experience current">
+              <div class="experience-meta">
+                <p>Aug 2023—Present</p>
+                <span>Current role</span>
+              </div>
+              <div>
+                <h3>Systems Developer</h3>
+                <p class="company">
+                  South Dakota Bureau of Information and Telecommunications
+                </p>
+                <p>
+                  Build and maintain production applications and statewide
+                  government systems. The work includes backend services, REST
+                  APIs, cloud functions, integrations, deployment pipelines, and
+                  troubleshooting across distributed systems.
+                </p>
+                <ul class="tags" aria-label="Technologies used">
+                  <li>C#</li>
+                  <li>.NET</li>
+                  <li>Azure</li>
+                  <li>Azure Functions</li>
+                  <li>SQL Server</li>
+                  <li>Azure DevOps</li>
+                  <li>Key Vault</li>
+                  <li>CI/CD</li>
+                </ul>
+              </div>
+            </article>
+            <article class="experience">
+              <div class="experience-meta"><p>May—Aug 2023</p></div>
+              <div>
+                <h3>Software Developer Intern</h3>
+                <p class="company">VT Industries</p>
+                <p>
+                  Contributed to .NET and Angular applications, including
+                  application modernization work that moved legacy Visual Basic
+                  code toward C#.
+                </p>
+                <ul class="tags" aria-label="Technologies used">
+                  <li>C#</li>
+                  <li>.NET</li>
+                  <li>Angular</li>
+                  <li>Visual Basic</li>
+                </ul>
+              </div>
+            </article>
+            <article class="experience">
+              <div class="experience-meta"><p>Mar 2022—Mar 2023</p></div>
+              <div>
+                <h3>Software Developer Intern / Co-op</h3>
+                <p class="company">3M</p>
+                <p>
+                  Developed software applications in an enterprise environment,
+                  working primarily with C#, .NET, and SQL Server.
+                </p>
+                <ul class="tags" aria-label="Technologies used">
+                  <li>C#</li>
+                  <li>.NET</li>
+                  <li>SQL Server</li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="skills" aria-labelledby="skills-title">
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-index">03 / Capabilities</p>
+              <h2 id="skills-title">A practical engineering toolkit.</h2>
+            </div>
+            <p>
+              Technologies and practices I use to move software from
+              implementation into dependable production operation.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <article>
+              <span>01</span>
+              <h3>Backend</h3>
+              <p>C#, .NET, ASP.NET Core, REST APIs</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Cloud &amp; DevOps</h3>
+              <p>Azure, Azure Functions, Azure DevOps, CI/CD, Key Vault</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Data</h3>
+              <p>SQL Server, relational databases, data-driven applications</p>
+            </article>
+            <article>
+              <span>04</span>
+              <h3>Frontend</h3>
+              <p>HTML, CSS, JavaScript, Bootstrap, Angular</p>
+            </article>
+            <article>
+              <span>05</span>
+              <h3>Engineering</h3>
+              <p>
+                Git, API design, systems integration, distributed systems,
+                production support
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section
+        class="section section-dark"
+        id="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="container">
+          <div class="section-heading">
+            <div>
+              <p class="section-index">04 / Selected work</p>
+              <h2 id="projects-title">
+                Foundations, built from first principles.
+              </h2>
+            </div>
+            <p>
+              Focused implementations that explore core data structures, search,
+              and the tradeoffs behind common abstractions.
+            </p>
+          </div>
+          <div class="project-grid">
+            <article class="project-card">
+              <div class="project-visual list-visual" aria-hidden="true">
+                <span></span><i></i><span></span><i></i><span></span>
+              </div>
+              <div class="project-body">
+                <p class="project-type">Data structure · Java</p>
+                <h3>Linked List</h3>
+                <p>
+                  A from-scratch linked-list implementation for working through
+                  node relationships, traversal, insertion, and removal without
+                  relying on a built-in collection.
+                </p>
+                <a
+                  href="https://github.com/zackychan97/linked-list"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Linked List on GitHub
+                  <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual tree-visual" aria-hidden="true">
+                <b></b><span></span><span></span><i></i><i></i><i></i>
+              </div>
+              <div class="project-body">
+                <p class="project-type">Search algorithm · Java</p>
+                <h3>Binary Search Tree</h3>
+                <p>
+                  An implementation of ordered tree storage and lookup, built to
+                  examine recursive traversal and the mechanics behind efficient
+                  search.
+                </p>
+                <a
+                  href="https://github.com/zackychan97/bst"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Binary Search Tree on GitHub
+                  <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="project-card">
+              <div class="project-visual table-visual" aria-hidden="true">
+                <span>KEY</span><span>VALUE</span><i></i><i></i><i></i><i></i>
+              </div>
+              <div class="project-body">
+                <p class="project-type">Data structure · Java</p>
+                <h3>Symbol Table</h3>
+                <p>
+                  A key-value abstraction that demonstrates storage, retrieval,
+                  and the underlying organization used to associate identifiers
+                  with data.
+                </p>
+                <a
+                  href="https://github.com/zackychan97/symbol-table"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  >View Symbol Table on GitHub
+                  <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+          <a
+            class="all-projects"
+            href="https://github.com/zackychan97?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Browse all GitHub repositories <span aria-hidden="true">↗</span></a
+          >
+        </div>
+      </section>
+      <section
+        class="section contact"
+        id="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container contact-grid">
+          <div>
+            <p class="section-index">05 / Contact</p>
+            <h2 id="contact-title">
+              Let's talk about the system you're building.
+            </h2>
+            <p>
+              For engineering roles, technical collaboration, or consulting
+              conversations, send a note here. I’ll respond through the email
+              address you provide.
+            </p>
+            <div class="social-links">
+              <a
+                href="https://github.com/zackychan97"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub ↗</a
+              ><a
+                href="https://twitter.com/zackychan97?lang=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                >X / Twitter ↗</a
+              >
+            </div>
+          </div>
+          <form
+            class="contact-form"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden-field">
+              <label>Do not fill this out: <input name="bot-field" /></label>
+            </p>
+            <div class="field-row">
+              <div class="field">
+                <label for="name">Name *</label
+                ><input id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="email">Email *</label
+                ><input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label
+              ><input id="subject" name="subject" />
+            </div>
+            <div class="field">
+              <label for="message">Message *</label
+              ><textarea
+                id="message"
+                name="message"
+                rows="6"
+                required
+              ></textarea>
+            </div>
+            <p class="required-note">* Required fields</p>
+            <button class="button button-primary" type="submit">
+              Send message <span aria-hidden="true">→</span>
+            </button>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container footer-inner">
+        <p>© <span id="year">2026</span> Zack Bumpous</p>
+        <p>Software Engineer · South Dakota</p>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </footer>
   </body>
 </html>
